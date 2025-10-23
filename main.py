@@ -113,7 +113,7 @@ def run_monte_carlo(ticker: str, years_history=5, horizon_years=1.0, steps=252, 
         "std_pnl": round(pnl.std(), 2),
         "VaR95_pnl": round(VaR95_pnl, 2),
         "ES95_pnl": round(ES95_pnl, 2),
-        "histogrsource "m_plot": hist_b64,
+        "histogrsource_plot": hist_b64,
         "paths_plot": paths_b64
     }
 
